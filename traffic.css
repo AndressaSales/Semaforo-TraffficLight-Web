@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+.sinal{
+    width: 250px;
+    height: 400px;
+    background-color: gray;
+    box-shadow: 0 0 10px grey,
+    0 0 30px grey,
+    0 0 50px grey;
+}
+#red{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(104, 29, 29);
+    position: relative;
+    left: 70px;
+    top: 40px;
+}
+#yellow{
+    width: 100px;
+    height: 100px;
+    background: rgb(126, 126, 27);
+    border-radius: 50px;
+    position: relative;
+    left: 70px;
+    top: 60px;
+}
+#green{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background:hsl(120, 62%, 19%);
+    position: relative;
+    left: 70px;
+    top: 75px;
+}
+.outo{
+    width: 150px;
+    height: 200px;
+    background-color: grey;
+    position: relative;
+    left: 50px;
+    box-shadow: 0 0 20px grey,
+    0 0 40px grey,
+    0 0 60px grey;
+}
+.vermelho{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+#red-2{
+    font-size: 2.5em;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    color: rgb(104, 29, 29);
+}
+.verde{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+#aa{
+    font-size: 2.5em;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    color: hsl(120, 62%, 19%);
+}
+@media  only screen and (max-width: 768px){
+    body{
+        background-color: cornflowerblue;
+    }
+    .sinal{
+        width: 90px;
+        height: 300px;
+    }
+    #red{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color:  rgb(104, 29, 29);
+        position: relative;
+        left: 20px;
+        top: 50px;
+    }
+    #yellow{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgb(126, 126, 27);
+        position: relative;
+        left: 20px;
+        top: 80px;
+    }
+    #green{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: hsl(120, 62%, 19%);
+        position: relative;
+        left: 20px;
+        top: 110px;
+    }
+}
